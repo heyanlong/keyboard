@@ -121,15 +121,9 @@ Wire Wire Line
 	1650 950  1650 850 
 Connection ~ 1650 950 
 Text GLabel 4800 850  2    50   Input ~ 0
-VBUS
-Wire Wire Line
-	1650 850  4300 850 
-Connection ~ 1650 850 
-Wire Wire Line
-	5550 2150 4300 2150
+VUSB
 Wire Wire Line
 	4300 2150 4300 1650
-Connection ~ 4300 850 
 Wire Wire Line
 	4300 850  4800 850 
 Wire Wire Line
@@ -162,4 +156,238 @@ Wire Wire Line
 Wire Wire Line
 	1150 3750 1150 4100
 Connection ~ 1150 3750
+$Comp
+L keyboard_parts:XTAL X?
+U 1 1 5BBC32C3
+P 4450 3450
+F 0 "X?" H 4450 3742 60  0000 C CNN
+F 1 "16Mhz" H 4450 3636 60  0000 C CNN
+F 2 "" H 4450 3450 60  0000 C CNN
+F 3 "" H 4450 3450 60  0000 C CNN
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3050 4150 3050
+Wire Wire Line
+	4150 3050 4150 3450
+Wire Wire Line
+	5550 3150 4750 3150
+Wire Wire Line
+	4750 3150 4750 3450
+$Comp
+L keyboard_parts:C C?
+U 1 1 5BBC4166
+P 4150 3650
+F 0 "C?" H 4280 3696 50  0000 L CNN
+F 1 "22p" H 4280 3605 50  0000 L CNN
+F 2 "" H 4150 3650 60  0000 C CNN
+F 3 "" H 4150 3650 60  0000 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3450
+$Comp
+L keyboard_parts:C C?
+U 1 1 5BBC41C7
+P 4750 3650
+F 0 "C?" H 4880 3696 50  0000 L CNN
+F 1 "22p" H 4880 3605 50  0000 L CNN
+F 2 "" H 4750 3650 60  0000 C CNN
+F 3 "" H 4750 3650 60  0000 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5BBC4228
+P 4750 3850
+F 0 "#PWR?" H 4750 3600 50  0001 C CNN
+F 1 "GND" H 4755 3677 50  0000 C CNN
+F 2 "" H 4750 3850 50  0001 C CNN
+F 3 "" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBC427E
+P 4150 3850
+F 0 "#PWR?" H 4150 3600 50  0001 C CNN
+F 1 "GND" H 4155 3677 50  0000 C CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	1    0    0    -1  
+$EndComp
+Text Label 5350 1550 0    50   ~ 0
+PE6
+Wire Wire Line
+	5550 1550 5350 1550
+$Comp
+L keyboard_parts:SW_PUSH SW?
+U 1 1 5BBDE8F3
+P 4400 2750
+F 0 "SW?" H 4400 3005 50  0000 C CNN
+F 1 "SW_PUSH" H 4400 2914 50  0000 C CNN
+F 2 "" H 4400 2750 60  0000 C CNN
+F 3 "" H 4400 2750 60  0000 C CNN
+	1    4400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2750 4700 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5BBDEE37
+P 3900 3850
+F 0 "#PWR?" H 3900 3600 50  0001 C CNN
+F 1 "GND" H 3905 3677 50  0000 C CNN
+F 2 "" H 3900 3850 50  0001 C CNN
+F 3 "" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 4100 2750
+Wire Wire Line
+	3900 2750 3900 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5BBDF377
+P 3650 3850
+F 0 "#PWR?" H 3650 3600 50  0001 C CNN
+F 1 "GND" H 3655 3677 50  0000 C CNN
+F 2 "" H 3650 3850 50  0001 C CNN
+F 3 "" H 3650 3850 50  0001 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1950 3650 1950
+Wire Wire Line
+	3650 1950 3650 2950
+Wire Wire Line
+	5550 2950 3650 2950
+Connection ~ 3650 2950
+Wire Wire Line
+	3650 2950 3650 3850
+$Comp
+L keyboard_parts:C C?
+U 1 1 5BBDFDF9
+P 3350 3550
+F 0 "C?" H 3480 3596 50  0000 L CNN
+F 1 "0.1u" H 3480 3505 50  0000 L CNN
+F 2 "" H 3350 3550 60  0000 C CNN
+F 3 "" H 3350 3550 60  0000 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:C C?
+U 1 1 5BBDFE63
+P 3900 2250
+F 0 "C?" H 4030 2296 50  0000 L CNN
+F 1 "1u" H 4030 2205 50  0000 L CNN
+F 2 "" H 3900 2250 60  0000 C CNN
+F 3 "" H 3900 2250 60  0000 C CNN
+	1    3900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2050 3900 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5BBE044A
+P 3900 2500
+F 0 "#PWR?" H 3900 2250 50  0001 C CNN
+F 1 "GND" H 3905 2327 50  0000 C CNN
+F 2 "" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+	1    3900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBE0497
+P 3350 3850
+F 0 "#PWR?" H 3350 3600 50  0001 C CNN
+F 1 "GND" H 3355 3677 50  0000 C CNN
+F 2 "" H 3350 3850 50  0001 C CNN
+F 3 "" H 3350 3850 50  0001 C CNN
+	1    3350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3750 3350 3850
+Wire Wire Line
+	3900 2450 3900 2500
+$Comp
+L keyboard_parts:+5V #PWR?
+U 1 1 5BBE1511
+P 3350 2400
+F 0 "#PWR?" H 3350 2370 20  0001 C CNN
+F 1 "+5V" H 3350 2538 30  0000 C CNN
+F 2 "" H 3350 2400 60  0000 C CNN
+F 3 "" H 3350 2400 60  0000 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2400 3350 2850
+Wire Wire Line
+	5550 2850 3350 2850
+Connection ~ 3350 2850
+Wire Wire Line
+	3350 2850 3350 3350
+Text Label 5300 2150 0    50   ~ 0
+VUSB
+Wire Wire Line
+	4300 2150 5550 2150
+Text Label 2150 850  2    50   ~ 0
+VUSB_RAW
+Text Label 3650 850  0    50   ~ 0
+VUSB
+Wire Wire Line
+	1650 850  4300 850 
+Connection ~ 1650 850 
+Connection ~ 4300 850 
+$Comp
+L keyboard_parts:C C?
+U 1 1 5BBE37E5
+P 3000 3550
+F 0 "C?" H 3130 3596 50  0000 L CNN
+F 1 "4.7u" H 3130 3505 50  0000 L CNN
+F 2 "" H 3000 3550 60  0000 C CNN
+F 3 "" H 3000 3550 60  0000 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBE3899
+P 3000 3850
+F 0 "#PWR?" H 3000 3600 50  0001 C CNN
+F 1 "GND" H 3005 3677 50  0000 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:+5V #PWR?
+U 1 1 5BBE38F0
+P 3000 2400
+F 0 "#PWR?" H 3000 2370 20  0001 C CNN
+F 1 "+5V" H 3000 2538 30  0000 C CNN
+F 2 "" H 3000 2400 60  0000 C CNN
+F 3 "" H 3000 2400 60  0000 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2400 3000 3350
+Wire Wire Line
+	3000 3750 3000 3850
 $EndSCHEMATC
