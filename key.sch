@@ -724,8 +724,6 @@ Wire Wire Line
 	10550 1050 9800 1050
 Wire Wire Line
 	750  1050 750  1400
-Text HLabel 700  1050 0    50   3State ~ 0
-row1
 Wire Wire Line
 	750  1050 700  1050
 Connection ~ 750  1050
@@ -795,10 +793,6 @@ Wire Wire Line
 	750  2000 1500 2000
 Wire Wire Line
 	1500 2000 1500 2350
-Text HLabel 700  2000 0    50   3State ~ 0
-row2
-Text HLabel 700  2950 0    50   3State ~ 0
-row3
 Wire Wire Line
 	750  3300 750  2950
 Wire Wire Line
@@ -817,10 +811,6 @@ Wire Wire Line
 	750  4850 1500 4850
 Wire Wire Line
 	1500 4850 1500 5200
-Text HLabel 700  3900 0    50   3State ~ 0
-row4
-Text HLabel 700  4850 0    50   3State ~ 0
-row5
 Wire Wire Line
 	1500 2000 2250 2000
 Wire Wire Line
@@ -2327,4 +2317,26 @@ Wire Wire Line
 	10400 5200 10400 5450
 Wire Wire Line
 	9650 5200 9650 5450
+Text GLabel 700  4850 0    50   Input ~ 0
+ROW4
+Text GLabel 700  3900 0    50   Input ~ 0
+ROW3
+Text GLabel 700  2950 0    50   Input ~ 0
+ROW2
+Text GLabel 700  2000 0    50   Input ~ 0
+ROW1
+Text GLabel 700  1050 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	750  2000 700  2000
+Connection ~ 750  2000
+Wire Wire Line
+	750  2950 700  2950
+Connection ~ 750  2950
+Wire Wire Line
+	750  3900 700  3900
+Connection ~ 750  3900
+Wire Wire Line
+	750  4850 700  4850
+Connection ~ 750  4850
 $EndSCHEMATC

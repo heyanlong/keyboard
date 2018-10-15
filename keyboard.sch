@@ -20,7 +20,7 @@ U 1 1 5BBB404F
 P 6600 2600
 F 0 "U1" H 6625 3937 60  0000 C CNN
 F 1 "ATMEGA32U4" H 6625 3831 60  0000 C CNN
-F 2 "keyboard_parts:QFP44" H 6600 2600 60  0000 C CNN
+F 2 "keyboard_parts:QFP44" H 6600 2600 60  0001 C CNN
 F 3 "" H 6600 2600 60  0000 C CNN
 	1    6600 2600
 	1    0    0    -1  
@@ -397,7 +397,7 @@ PB0
 Text Label 5400 2350 0    50   ~ 0
 PB1
 Text Label 5400 2450 0    50   ~ 0
-PB3
+PB2
 Text Label 5400 2550 0    50   ~ 0
 PB3
 Text Label 5400 2650 0    50   ~ 0
@@ -579,4 +579,84 @@ U 5BBFE46D
 F0 "key" 50
 F1 "key.sch" 50
 $EndSheet
+Text Label 7850 3150 2    50   ~ 0
+PB4
+Text Label 7850 3050 2    50   ~ 0
+PB5
+Text Label 7850 2950 2    50   ~ 0
+PB6
+Wire Wire Line
+	7700 2950 7850 2950
+Wire Wire Line
+	7700 3050 7850 3050
+Wire Wire Line
+	7700 3150 7850 3150
+Text Label 6150 4750 0    50   ~ 0
+PB0
+Text Label 6150 4900 0    50   ~ 0
+PB1
+Text Label 6150 5050 0    50   ~ 0
+PB2
+Text Label 6150 5200 0    50   ~ 0
+PB3
+Text Label 6150 5350 0    50   ~ 0
+PB4
+Text Label 6150 5500 0    50   ~ 0
+PB5
+Text Label 6150 5650 0    50   ~ 0
+PB6
+Text Label 6150 5800 0    50   ~ 0
+PB7
+Text GLabel 6700 4750 2    50   Input ~ 0
+ROW0
+Text GLabel 6700 4900 2    50   Input ~ 0
+ROW1
+Text GLabel 6700 5050 2    50   Input ~ 0
+ROW2
+Text GLabel 6700 5200 2    50   Input ~ 0
+ROW3
+Text GLabel 6700 5350 2    50   Input ~ 0
+ROW4
+Text GLabel 6700 5500 2    50   Input ~ 0
+COL0
+Text GLabel 6700 5650 2    50   Input ~ 0
+COL1
+Text GLabel 6700 5800 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	6150 4750 6700 4750
+Wire Wire Line
+	6150 4900 6700 4900
+Wire Wire Line
+	6150 5050 6700 5050
+Wire Wire Line
+	6150 5200 6700 5200
+Wire Wire Line
+	6150 5350 6700 5350
+Wire Wire Line
+	6150 5500 6700 5500
+Wire Wire Line
+	6150 5650 6700 5650
+Wire Wire Line
+	6150 5800 6700 5800
+Text Label 7850 2850 2    50   ~ 0
+PC6
+Text Label 7850 2750 2    50   ~ 0
+PC7
+Wire Wire Line
+	7700 2750 7850 2750
+Wire Wire Line
+	7700 2850 7850 2850
+Text Label 6150 5950 0    50   ~ 0
+PC6
+Text Label 6150 6100 0    50   ~ 0
+PC7
+Text GLabel 6700 5950 2    50   Input ~ 0
+COL3
+Text GLabel 6700 6100 2    50   Input ~ 0
+COL4
+Wire Wire Line
+	6700 5950 6150 5950
+Wire Wire Line
+	6150 6100 6700 6100
 $EndSCHEMATC
