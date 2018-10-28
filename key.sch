@@ -471,7 +471,7 @@ U 1 1 5BC0829D
 P 1050 4250
 F 0 "SW43" H 1050 4505 50  0000 C CNN
 F 1 "shift" H 1050 4414 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_PCB" H 1050 4250 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.25u_PCB" H 1050 4250 60  0001 C CNN
 F 3 "" H 1050 4250 60  0000 C CNN
 	1    1050 4250
 	1    0    0    -1  
@@ -592,7 +592,7 @@ U 1 1 5BC082DF
 P 9350 4250
 F 0 "SW54" H 9350 4505 50  0000 C CNN
 F 1 "shift" H 9350 4414 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9350 4250 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.75u_PCB" H 9350 4250 60  0001 C CNN
 F 3 "" H 9350 4250 60  0000 C CNN
 	1    9350 4250
 	1    0    0    -1  
@@ -647,7 +647,7 @@ U 1 1 5BC0A90A
 P 2550 5200
 F 0 "SW59" H 2550 5455 50  0000 C CNN
 F 1 "option" H 2550 5364 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB" H 2550 5200 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 2550 5200 60  0001 C CNN
 F 3 "" H 2550 5200 60  0000 C CNN
 	1    2550 5200
 	1    0    0    -1  
@@ -680,7 +680,7 @@ U 1 1 5BC0A91C
 P 4850 5200
 F 0 "SW62" H 4850 5455 50  0000 C CNN
 F 1 "command" H 4850 5364 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 4850 5200 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4850 5200 60  0001 C CNN
 F 3 "" H 4850 5200 60  0000 C CNN
 	1    4850 5200
 	1    0    0    -1  
